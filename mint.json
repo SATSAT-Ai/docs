@@ -17,37 +17,33 @@
 	},
 	"theme": "prism",
 	"modeToggle": {
-		"default": "dark",
+		"default": "light",
 		"isHidden": false
 	},
 	"topbarLinks": [
 		{
 			"name": "Support",
-			"url": "mailto:support@satsatai"
+			"url": "https://satsatai.com/contact"
+		},
+		{
+			"name": "Github",
+			"url": "https://github.com/SATSAT-Ai/docs"
 		}
 	],
 	"topbarCtaButton": {
 		"name": "Signup",
-		"url": "https://satsatai.com/signup"
+		"url": "https://satsatai.com/signup",
+		"arrow": true,
+		"style": "pill"
 	},
+
 	"tabs": [
 		{
-			"name": "API Reference",
-			"url": "api-reference"
+			"name": "API References",
+			"url": "api-references"
 		}
 	],
-	"anchors": [
-		{
-			"name": "Documentation",
-			"icon": "book-open-cover",
-			"url": "https://satsatai.mintlify.app/introduction"
-		},
-		{
-			"name": "Github",
-			"icon": "github",
-			"url": "https://github.com/SATSAT-Ai/docs"
-		}
-	],
+	"anchors": [],
 	"navigation": [
 		{
 			"group": "Welcome",
@@ -62,13 +58,83 @@
 			]
 		},
 		{
-			"group": "api-reference",
-			"pages": ["api-version", "authentication", "authorization"]
+			"group": "Api Reference",
+			"pages": [
+				"api-references/api-version",
+				"api-references/postman-collection",
+				"api-references/authentication",
+				"api-references/authorization",
+				"api-references/making-requests",
+				{
+					"group": "Api Clients",
+					"pages": ["api-references/api-clients/lorem"]
+				},
+				{
+					"group": "Scopes",
+					"pages": ["api-references/scopes/lorem"]
+				},
+				{
+					"group": "Personal Access Tokens",
+					"pages": ["api-references/personal-access-tokens/lorem"]
+				},
+				{
+					"group": "Account Holders",
+					"pages": ["api-references/account-holders/lorem"]
+				}
+			]
+		},
+		{
+			"group": "Micro Services",
+			"pages": [
+				{
+					"group": "Users",
+					"pages": ["microservices/users/lorem"]
+				},
+				{
+					"group": "Statements",
+					"pages": ["microservices/statements/lorem"]
+				},
+				{
+					"group": "Invoices",
+					"pages": ["microservices/invoices/lorem"]
+				},
+				{
+					"group": "Receipts",
+					"pages": ["microservices/receipts/lorem"]
+				},
+				{
+					"group": "Credit Scoring",
+					"pages": ["microservices/credit-scoring/lorem"]
+				},
+				{
+					"group": "Insights",
+					"pages": ["microservices/insights/lorem"]
+				},
+				{
+					"group": "Partners",
+					"pages": ["microservices/partners/lorem"]
+				},
+				"microservices/rate-limiting-and-throttling",
+				"microservices/error-codes"
+			]
+		},
+		{
+			"group": "Webhooks",
+			"pages": [
+				"webhooks/configuration",
+				"webhooks/authentication",
+				"webhooks/user-management",
+				"webhooks/receiving-data"
+			]
 		}
 	],
+	"primaryTab": {
+		"name": "Documentation"
+	},
+
 	"footerSocials": {
-		"x": "https://x.com/mintlify",
-		"github": "https://github.com/mintlify",
-		"linkedin": "https://www.linkedin.com/company/mintsearch"
+		"x": "https://x.com/satsatai",
+		"github": "https://github.com/satsatai",
+		"linkedin": "https://www.linkedin.com/satsatai"
 	}
 }
