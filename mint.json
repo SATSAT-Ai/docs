@@ -20,7 +20,6 @@
 		"default": "dark",
 		"isHidden": false
 	},
-	"backgroundImage": "/logo/background.png",
 	"topbarLinks": [
 		{
 			"name": "Support",
