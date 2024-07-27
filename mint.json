@@ -57,6 +57,7 @@
 			"pages": [
 				"api-references/api-version",
 				"api-references/postman-collection",
+				"api-references/integration-guide",
 				"api-references/authentication",
 				"api-references/authorization",
 				"api-references/making-requests",
