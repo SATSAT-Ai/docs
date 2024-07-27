@@ -27,8 +27,8 @@
 		}
 	],
 	"topbarCtaButton": {
-		"name": "Dashboard",
-		"url": "https://dashboard.mintlify.com"
+		"name": "Signup",
+		"url": "https://satsatai.com/signup"
 	},
 	"tabs": [
 		{
@@ -57,28 +57,7 @@
 			"group": "Getting Started",
 			"pages": ["Overview", "Quick Start", "Local Development"]
 		},
-		{
-			"group": "Api",
-			"pages": [
-				"api/api version",
-				"api/postman collection",
-				"api/authentication",
-				"api/authorization",
-				"api/making requests"
-			]
-		},
-		{
-			"group": "Api clients",
-			"pages": ["api clients/lorem"]
-		},
-		{
-			"group": "Scopes",
-			"pages": ["scopes/lorem"]
-		},
-		{
-			"group": "API Documentation",
-			"pages": ["api-reference/introduction"]
-		},
+
 		{
 			"group": "Endpoint Examples",
 			"pages": [
