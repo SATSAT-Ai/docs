@@ -55,9 +55,16 @@
 		},
 		{
 			"group": "Getting Started",
-			"pages": ["overview", "quick-start", "local-development"]
+			"pages": [
+				"getting-started/overview",
+				"getting-started/quick-start",
+				"getting-started/local-development"
+			]
 		},
-		{ "group": "api-reference", "pages": ["api-version", "authentication"] }
+		{
+			"group": "api-reference",
+			"pages": ["api-version", "authentication", "authorization"]
+		}
 	],
 	"footerSocials": {
 		"x": "https://x.com/mintlify",
