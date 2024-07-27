@@ -40,34 +40,40 @@
 		{
 			"name": "Documentation",
 			"icon": "book-open-cover",
-			"url": "https://mintlify.com/docs"
+			"url": "https://satsatai.mintlify.app/introduction"
 		},
 		{
-			"name": "Community",
-			"icon": "slack",
-			"url": "https://mintlify.com/community"
-		},
-		{
-			"name": "Blog",
-			"icon": "newspaper",
-			"url": "https://mintlify.com/blog"
+			"name": "Github",
+			"icon": "github",
+			"url": "https://github.com/SATSAT-Ai/docs"
 		}
 	],
 	"navigation": [
 		{
-			"group": "Get Started",
-			"pages": ["introduction", "quickstart", "development"]
+			"group": "Welcome",
+			"pages": ["introduction"]
 		},
 		{
-			"group": "Essentials",
+			"group": "Getting Started",
+			"pages": ["Overview", "Quick Start", "Local Development"]
+		},
+		{
+			"group": "Api",
 			"pages": [
-				"essentials/markdown",
-				"essentials/code",
-				"essentials/images",
-				"essentials/settings",
-				"essentials/navigation",
-				"essentials/reusable-snippets"
+				"api/api version",
+				"api/postman collection",
+				"api/authentication",
+				"api/authorization",
+				"api/making requests"
 			]
+		},
+		{
+			"group": "Api clients",
+			"pages": ["api clients/lorem"]
+		},
+		{
+			"group": "Scopes",
+			"pages": ["scopes/lorem"]
 		},
 		{
 			"group": "API Documentation",
