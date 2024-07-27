@@ -15,10 +15,16 @@
 			"to": "#29a173"
 		}
 	},
+	"theme": "prism",
+	"modeToggle": {
+		"default": "dark",
+		"isHidden": true
+	},
+	"backgroundImage": "/logo/background.png",
 	"topbarLinks": [
 		{
 			"name": "Support",
-			"url": "mailto:hi@mintlify.com"
+			"url": "mailto:support@satsatai"
 		}
 	],
 	"topbarCtaButton": {
