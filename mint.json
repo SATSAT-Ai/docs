@@ -37,12 +37,7 @@
 		"style": "pill"
 	},
 
-	"tabs": [
-		{
-			"name": "API References",
-			"url": "api-references"
-		}
-	],
+	"tabs": [],
 	"anchors": [],
 	"navigation": [
 		{
