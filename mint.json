@@ -18,8 +18,9 @@
 	"theme": "prism",
 	"modeToggle": {
 		"default": "dark",
-		"isHidden": true
+		"isHidden": false
 	},
+	"backgroundImage": "/logo/background.png",
 	"topbarLinks": [
 		{
 			"name": "Support",
